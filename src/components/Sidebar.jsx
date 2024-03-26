@@ -33,15 +33,15 @@ export default function Sidebar({ currentNode }) {
           <h3>Instruction</h3>
           <ul>
             <li>Kéo thả Default Node/Oval Node để tạo các node</li>
-            <li>Có thể trực tiếp vào label các node để sửa</li>
-            <li>
-              Màu <span style={{ color: "green" }}>xanh</span> thể hiện cổng
-              source(out)
-            </li>
-            <li>
-              Màu <span style={{ color: "red" }}>đỏ</span> thể hiện cổng
-              target(in)
-            </li>
+            <li>Có thể nhấn trực tiếp vào label các node để sửa</li>
+            {/*<li>*/}
+            {/*  Màu <span style={{ color: "green" }}>xanh</span> thể hiện cổng*/}
+            {/*  source(out)*/}
+            {/*</li>*/}
+            {/*<li>*/}
+            {/*  Màu <span style={{ color: "red" }}>đỏ</span> thể hiện cổng*/}
+            {/*  target(in)*/}
+            {/*</li>*/}
             <li>
               Khi thực hiện kết nối các node, node
               <span style={{ color: "red" }}> target </span> sẽ được gán tự động parentId từ node
